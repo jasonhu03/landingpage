@@ -11,7 +11,7 @@ body{
     padding: 15px 100px;
 }
 
-.title{
+.header-title{
     color:#F9FAF8;
     font-size:24px;
     font-weight: bold;
@@ -20,6 +20,50 @@ body{
 .header-links{
     display:flex;
     gap:10px;
+}
+
+.container{
+    background-color:#1F2937;
+    display:flex;
+    padding:20px;
+}
+
+.intro-content{
+    font-size:25px;
+    color:#F9FAF8;
+    padding: 15px 100px;
+    display:flex;
+    flex-direction: column;
+    align-self:center;
+    gap:15px;
+}
+
+.image{
+    padding-right:100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-self:center;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+.button{
+    background-color: #3882F6;
+    max-width:100px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:8px;
+    font-weight: bold;
+}
+
+.main-title{
+    font-size:48px;
+    font-weight:bolder;
 }
 
 ul{
